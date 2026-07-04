@@ -31,4 +31,4 @@
 
 ---
 **Автор:** Юлія Кобиляцька 
-* [Мій LinkedIn](встав_сюди_посилання_на_свій_linkedin)
+* [Мій LinkedIn](www.linkedin.com/in/yuliia-kobyliatska)
