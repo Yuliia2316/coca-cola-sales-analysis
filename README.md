@@ -6,7 +6,7 @@
 * **Джерело даних:** [Kaggle Dataset](https://www.kaggle.com/datasets/sanjanamurthy392/coca-cola-sales-analysis)
 
 ## 📷 Скриншот дашборду
-![Фінальний вигляд дашборду](dashboard.png)
+![Фінальний вигляд дашборду](dashboard.ng)
 
 ## 🛠️ Технічний стек та навички
 * **Інструмент:** Power BI Desktop
