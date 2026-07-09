@@ -1,73 +1,155 @@
-# 📊 Coca-Cola Sales Analysis (Power BI Dashboard)
+# 📊 Coca-Cola Sales & Financial Analysis (Power BI Project)
 
-Choose language / Оберіть мову: [English](#english-version) | [Українська](#українська-версія)
+**Choose language / Оберіть мову:** [English Version](#english-version) | [Українська версія](#українська-версія)
 
----
+# English Version
 
-## English Version
+## 📌 Project Overview
 
-### 📌 Project Overview
-This interactive dashboard was designed to analyze the commercial performance and financial metrics of Coca-Cola beverage distribution. The objective of this project is to transform raw transactional data into strategic insights for management, highlighting top-performing products, identifying seasonal trends, and discovering business growth opportunities.
+This interactive two-page dashboard was designed to analyze the commercial performance and financial metrics of Coca-Cola beverage distribution. The objective of this project is to transform raw transactional data into strategic insights for management, highlighting top-performing products, identifying seasonal trends, discovering business growth opportunities, and performing a deep-dive financial P&L analysis across retailers.
 
-* **Data Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/sanjanamurthy392/coca-cola-sales-analysis)
+* **Data Source:** Kaggle Dataset
 
-### 📷 Dashboard Preview
-![Final Dashboard Design (English)](dashboard_en.png)
+* **Power BI File:** [Download Coca-Cola Analysis](./Coca_Cola_Sales_Analysis.pbix) *(Ensure to keep the file name matching your repository)*
 
-### 🛠️ Tech Stack & Skills
+## 📷 Dashboard Pages Preview
+
+### Page 1: Commercial Sales Performance
+
+*Focuses on overall sales dynamics, brand market shares, and geographical performance.*
+*(Insert your main dashboard screenshot below)*
+
+### Page 2: Retailer Financial Performance Matrix (P&L Analysis)
+
+*Features a structured profit and loss matrix evaluating sales volume, average price point, operating profit, and product margins.*
+![Retailer Financial Performance Matrix](matrix_en.png)
+
+## 🛠️ Tech Stack & Skills
+
 * **BI Tool:** Power BI Desktop
-* **Formula Language:** DAX (developed custom KPI measures, revenue formulas, and scaled operational profit metrics)
-* **Data Modeling & Design:** Data cleaning, cross-filtering configuration, visual interactivity optimization, and implementation of the Z-pattern layout.
 
-### 📊 Key Business Metrics (KPIs)
+* **Formula Language (DAX):** Developed custom KPI measures, safe division formulas, and automated financial metrics (`Total Sales`, `Operating Profit`, `Units Sold`, `Average Price`, and `Operating Margin %`).
+
+* **Data Modeling & Design:** Built robust data relations, optimized visual hierarchy, cross-filtering configuration, and implemented the Z-pattern layout for optimal readability.
+
+* **Metadata & UI Optimization:** Resolved percentage calculation bugs by scaling large numerical values directly inside the UI (display units) rather than dividing in DAX code, maintaining decimal accuracy.
+
+## 📊 Key Business Metrics (KPIs)
+
 * **Total Sales:** $8.22M
-* **Operating Profit:** $3.04M (Margin ~37%)
-* **Units Sold:** 16M units
 
-### 🔍 Key Insights
-1. **Brand Structure:** Classic **Coca-Cola** is the absolute sales leader (**23.41%**), followed closely by *Dasani Water* (**19.95%**).
-2. **Geographic Breakdown:** The **West Region** generates the highest share of revenue, while the *Midwest* shows the weakest performance, signaling a need for a marketing strategy review.
-3. **Sales Channels:** **Walmart** stands out as the key retailer, securing the primary sales volume and ensuring steady customer traffic.
-4. **Seasonality:** The line chart reveals a clear wave-like trend, with peak sales during the **summer months (June-July)** and a noticeable slowdown in autumn.
+* **Operating Profit:** $3.04M
 
-### 💡 Business Recommendations
-* Optimize logistics and ensure 100% on-shelf availability during the peak summer season.
-* Launch joint promotional campaigns with Walmart as the key partner to increase the average order value.
-* Conduct an in-depth investigation into the root causes of underperformance in the Midwest region.
+* **Overall Operating Margin:** 37.02%
+
+* **Units Sold:** 16.48M units
+
+## 🔍 Key Insights & Financial Deep-Dive
+
+### 1. Brand & Category Leaders
+
+* **Classic Coca-Cola** is the absolute sales champion, accounting for **23.41%** of total revenue.
+
+* **Dasani Water** follows in second place (**19.95%**), showing strong health-conscious market trends.
+
+### 2. Geographic & Seasonality Trends
+
+* The **West Region** generates the highest share of revenue, while the **Midwest** shows the weakest performance, indicating a critical need for targeted localized marketing.
+
+* A clear **wave-like seasonality trend** is present: sales peak significantly during summer months (June–July) and drop during autumn.
+
+### 3. Retailer P&L Matrix Insights (Page 2)
+
+An analysis of the retail network performance revealed a vital business paradox:
+
+* **Walmart** is our volume giant, bringing in the highest sales (**$4.40M** / 9.15M units sold) but operates at a moderate margin (**37.42%**).
+
+* **Costco** is our efficiency champion: despite generating lower sales volume (**$1.29M** / 3.06M units), it delivers a superior operating margin of **41.97%**, translating to a highly profitable **$0.54M** in operating profit.
+
+* **Target** represents our smallest footprint (**$0.40M** sales) but holds a steady profit margin of **36.57%**, making it a healthy niche performer.
+
+## 💡 Strategic Business Recommendations
+
+1. **Optimize Supply Chain:** Guarantee 100% stock availability during peak summer seasons to prevent loss of premium margin sales.
+
+2. **Review Promotion Strategies:** Restructure trade discounts with high-volume partners (like Walmart) to lift margin percentages, using Costco's 41.97% margin profile as a benchmark.
+
+3. **Midwest Turnaround Plan:** Launch targeted marketing campaigns in the Midwest to tackle local underperformance.
 
 ---
 
-## Українська версія
+# Українська версія
 
-### 📌 Про проєкт
-Цей інтерактивний дашборд створено для аналізу комерційної діяльності та фінансових показників дистрибуції напоїв компанії Coca-Cola. Мета проєкту — трансформувати сирі транзакційні дані у стратегічні інсайти для менеджменту, підсвітити лідерів продажів, виявити сезонні тренди та знайти точки росту для бізнесу.
+## 📌 Про проєкт
 
-* **Джерело даних:** [Kaggle Dataset](https://www.kaggle.com/datasets/sanjanamurthy392/coca-cola-sales-analysis)
+Цей інтерактивний двосторінковий дашборд створено для комплексного аналізу комерційної діяльності та фінансових показників дистрибуції напоїв компанії Coca-Cola. Мета проєкту — трансформувати сирі транзакційні дані у стратегічні інсайти для менеджменту: підсвітити брендів-лідерів, виявити сезонні коливання, розрахувати маржинальність окремих клієнтів (P&L-аналіз) та визначити нові точки росту для бізнесу.
 
-### 📷 Скриншот дашборду
-![Фінальний вигляд дашборду (Українська)](dashboard.png)
+* **Джерело даних:** Kaggle Dataset
 
-### 🛠️ Технічний стек та навички
+## 📷 Скриншоти сторінок дашборду
+
+### Сторінка 1: Комерційний аналіз продажів
+
+*Фокусується на загальній динаміці продажів, частках брендів на ринку та регіональних зрізах.*
+*(Вставте скриншот першої сторінки дашборду тут)*
+
+### Сторінка 2: Фінансова матриця ритейлерів (P&L аналіз)
+
+*Структурована фінансова таблиця, яка аналізує фізичні продажі, середню ціну за одиницю, операційний прибуток та відсоткову маржинальність.*
+![Фінансова матриця ритейлерів](matrix.png)
+
+## 🛠️ Технічний стек та навички
+
 * **Інструмент:** Power BI Desktop
-* **Мова формул:** DAX (створення кастомних мір для KPI, розрахунок продажів та операційного прибутку з урахуванням масштабування)
-* **Моделювання даних:** Очищення даних, налаштування крос-фільтрації та інтерактивності візуальних елементів (Z-патерн розташування графіків).
 
-### 📊 Ключові бізнес-метрики (KPI)
+* **Мова формул (DAX):** Написання кастомних мір для розрахунку бізнес-показників (`Загальні продажі`, `Продано одиниць`, `Середня ціна`, `Операційний прибуток`, `Маржа`). Використання безпечної функції ділення `DIVIDE` для запобігання помилкам ділення на нуль.
+
+* **Моделювання та UI-дизайн:** Очищення вихідних даних, побудова зв'язків між сутностями, структурування за Z-патерном для зручності сприпяння керівництвом.
+
+* **Робота з метаданими:** Вирішено проблему масштабування чисел (переведення в мільйони на рівні властивостей візуалу, а не через DAX-код), що дозволило зберегти 100% математичну точність при розрахунку маржі.
+
+## 📊 Ключові бізнес-метрики (KPI)
+
 * **Загальні продажі:** $8.22 млн
-* **Операційний прибуток:** $3.04 млн (Маржинальність ~37%)
-* **Кількість проданих одиниць:** 16 млн шт.
 
-### 🔍 Головні висновки (Insights)
-1. **Брендова структура:** Класична **Coca-Cola** є абсолютним лідером продажів (**23.41%**), на другому місці — *Dasani Water* (**19.95%**).
-2. **Географічний зріз:** Найбільшу частку виторгу генерує **Західний регіон (West)**, тоді як *Середній Захід (Midwest)* демонструє найслабші результати та потребує перегляду маркетингової стратегії.
-3. **Канали збуту:** Мережа **Walmart** є ключовим ритейлером, який забезпечує основний обсяг реалізації та стабільність потоку клієнтів.
-4. **Сезонність:** На лінійному графіку чітко простежується хвилеподібний тренд із піковими продажами у **літні місяці (червень-липень)** та спадом у осінній період.
+* **Операційний прибуток:** $3.04 млн
 
-### 💡 Рекомендації для бізнесу
-* Оптимізувати логістику та забезпечити 100% наявність товару на полицях у піковий літній сезон.
-* Запустити спільні промокампанії з ключовим партнером Walmart для збільшення середнього чека.
-* Провести додаткове дослідження причин низьких продажів у регіоні Midwest.
+* **Середня маржинальність:** 37.02%
 
----
+* **Кількість проданих одиниць:** 16.48 млн шт.
+
+## 🔍 Головні висновки (Insights) та Фінансовий аналіз
+
+### 1. Структура продажів брендів
+
+* Абсолютним лідером продажів є **класична Coca-Cola** з часткою **23.41%** у загальному виторгу.
+
+* На другому місці — бренд питної води **Dasani** (**19.95%**), що вказує на сильний тренд споживання здорових продуктів.
+
+### 2. Географія та Сезонність
+
+* Найбільшу частку виторгу забезпечує **Західний регіон (West)**, тоді як **Середній Захід (Midwest)** демонструє найслабші результати і потребує перегляду комерційної стратегії.
+
+* Продажі мають чітко виражений сезонний характер: стрімке зростання влітку (червень–липень) та значний спад восени.
+
+### 3. Аналіз фінансової ефективності ритейлерів (Сторінка 2)
+
+Детальний аналіз P&L-матриці виявив цікаві точки росту для комерційного відділу:
+
+* **Walmart** — це наш найбільший канал збуту. Він приносить **$4.40 млн** виторгу, але має середню маржинальність **37.42%**.
+
+* **Costco** — наш найефективніший партнер. Попри відносно невеликі обсяги продажів (**$1.29 млн** / 3.06 млн штук), він забезпечує преміальну маржинальність у **41.97%**, генеруючи **$0.54 млн** чистого операційного прибутку.
+
+* **Target** демонструє стабільний та здоровий фінансовий профіль із маржею **36.57%** при виторгу **$0.40 млн**.
+
+## 💡 Рекомендації для бізнесу
+
+1. **Захист маржі влітку:** Оптимізувати логістичні ланцюжки під час літнього піка, щоб уникнути дефіциту товару на полицях (Out-of-Stock).
+
+2. **Оптимізація умов з Walmart:** Використати бенчмарк Costco (41.97%), щоб переглянути умови дисконтів для Walmart та підвищити прибутковість комерційного каналу.
+
+3. **Локальний маркетинг:** Провести дослідження ринку в регіоні Midwest та запустити фокусні акції для стимулювання попиту.
+
 **Author / Автор:** Yuliia Kobyliatska
-* [My LinkedIn / Мій LinkedIn](www.linkedin.com/in/yuliia-kobyliatska)
+
+**Connect with me / Зв'язатися зі мною:** [My LinkedIn](https://www.linkedin.com/in/yuliia-kobyliatska)
