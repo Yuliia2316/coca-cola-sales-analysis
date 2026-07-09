@@ -16,8 +16,8 @@ This interactive two-page dashboard was designed to analyze the commercial perfo
 
 ### Page 1: Commercial Sales Performance
 
-*Focuses on overall sales dynamics, brand market shares, and geographical performance.*
 *(Insert your main dashboard screenshot below)*
+![Commercial Sales Performance](dashboard_en.png)
 
 ### Page 2: Retailer Financial Performance Matrix (P&L Analysis)
 
@@ -91,7 +91,7 @@ An analysis of the retail network performance revealed a vital business paradox:
 ### Сторінка 1: Комерційний аналіз продажів
 
 *Фокусується на загальній динаміці продажів, частках брендів на ринку та регіональних зрізах.*
-*(Вставте скриншот першої сторінки дашборду тут)*
+*(![Комерційний аналіз продажів](dashboard.png)*
 
 ### Сторінка 2: Фінансова матриця ритейлерів (P&L аналіз)
 
